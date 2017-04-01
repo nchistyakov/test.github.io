@@ -4,8 +4,9 @@
 // script.innerHTML+='window.user_has_pro_permissions = true;';
 
 // document.getElementsByTagName('head')[0].appendChild(script);
+console.log('inject');
     setInterval(function() {
-              console.log('inject');
+              
           window.user_permissions = ['admin'];
           window.user_pro_member = true;
           window.user_has_pro_permissions = true
