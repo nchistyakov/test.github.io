@@ -6,7 +6,7 @@
 // document.getElementsByTagName('head')[0].appendChild(script);
     setTimeout(function() {
               console.log('inject');
-    window.user_permissions = ['admin'];
-window.user_pro_member = true;
-window.user_has_pro_permissions = true
+          window.user_permissions = ['admin'];
+          window.user_pro_member = true;
+          window.user_has_pro_permissions = true
     }, 0);
